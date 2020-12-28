@@ -7,10 +7,7 @@ const Stack = createStackNavigator()
 
 function getHeaderOptions(title) {
   return {
-    title,
-    headerStyle: {
-      backgroundColor: 'black'
-    }
+    title
   }
 }
 

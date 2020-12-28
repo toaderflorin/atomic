@@ -5,7 +5,7 @@ export default function MyView(props) {
   const { children } = props
 
   return (
-    <View style={{ backgroundColor: '#111', flex: 1, borderColor: '#111' }}>
+    <View style={{ flex: 1, backgroundColor: 'white' }}>
       {children}
     </View>
   )
