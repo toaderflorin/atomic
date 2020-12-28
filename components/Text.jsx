@@ -1,8 +1,8 @@
 import React from 'react'
-import { Text } from 'react-native'
+import { Text as RnText } from 'react-native'
 
 export default function Text() {
   return (
-    <Text style={{ fontSize: 14 }} />
+    <RnText style={{ fontSize: 14, color: 'white' }} />
   )
 }

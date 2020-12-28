@@ -1,11 +1,10 @@
 import React from 'react'
-import { Text, View } from 'react-native'
-import { centeredFill } from '../../styles/layout'
+import { Text, View } from '../../components'
 
 export default function HomePage2() {
   return (
-    <View style={centeredFill}>
-      <Text>Home1</Text>
+    <View >
+      <Text>Home3</Text>
     </View>
   )
 }
